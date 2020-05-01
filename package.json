@@ -1,0 +1,31 @@
+{
+  "name": "tailwind_alpine",
+  "version": "1.0.0",
+  "description": "Template to scaffold new projet with Tailwind CSS and Alpine.js quickly",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss build styles.css -o index.css",
+    "postbuild": "postcss index.css > index.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/girardinsamuel/tailwind_alpine.git"
+  },
+  "keywords": [
+    "Tailwind",
+    "CSS",
+    "Alpine.js"
+  ],
+  "author": "Samuel Girardin",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/girardinsamuel/tailwind_alpine/issues"
+  },
+  "homepage": "https://github.com/girardinsamuel/tailwind_alpine#readme",
+  "dependencies": {
+    "tailwindcss": "^1.4.2"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10"
+  }
+}
